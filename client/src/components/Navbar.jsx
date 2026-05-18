@@ -14,15 +14,15 @@ function Navbar() {
   }
 
   return (
-    <div className="bg-white shadow p-4 flex justify-between items-center">
+    <div className="bg-white shadow px-4 py-4 flex justify-between items-center">
 
-      <h2 className="text-xl font-semibold">
+      <h2 className="text-lg md:text-2xl font-semibold">
         Task Manager
       </h2>
 
       <button
         onClick={handleLogout}
-        className="bg-red-500 text-white px-4 py-2 rounded-xl"
+        className="bg-red-500 text-white px-3 py-2 md:px-4 rounded-xl text-sm md:text-base"
       >
         Logout
       </button>

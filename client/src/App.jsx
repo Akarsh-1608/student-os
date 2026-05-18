@@ -152,7 +152,7 @@ function App() {
   }
 
   return (
-    <div className="flex h-screen bg-gray-100">
+    <div className="min-h-screen md:h-screen bg-gray-100 md:flex">
 
       <Sidebar />
 
@@ -160,7 +160,7 @@ function App() {
 
         <Navbar />
 
-        <div className="p-6">
+       <div className="p-3 md:p-6">
 
           <TaskForm
             task={task}
@@ -175,7 +175,7 @@ function App() {
           />
 
           {/* Search + Sort */}
-          <div className="flex gap-3 mb-6">
+          <div className="flex flex-col md:flex-row gap-3 mb-6">
 
             <input
               type="text"
@@ -212,7 +212,7 @@ function App() {
           </div>
 
           {/* Filter Buttons */}
-          <div className="flex gap-3 mb-6">
+         <div className="flex flex-wrap gap-3 mb-6">
 
             <button
               onClick={() =>

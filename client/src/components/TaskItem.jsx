@@ -5,7 +5,7 @@ function TaskItem({
 }) {
 
   return (
-    <div className="bg-white p-4 rounded-2xl shadow flex justify-between items-center">
+   <div className="bg-white p-4 rounded-2xl shadow flex flex-col md:flex-row md:justify-between md:items-center gap-4">
 
       <div className="flex items-center gap-3">
 
@@ -49,7 +49,7 @@ function TaskItem({
         onClick={() =>
           deleteTask(task._id)
         }
-        className="text-red-500"
+       className="text-red-500 self-start md:self-auto"
       >
         Delete
       </button>
