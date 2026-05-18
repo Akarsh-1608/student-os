@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const API_URL =
-  "http://localhost:5000/api/tasks"
+  "https://student-os-vh7a.onrender.com/api/tasks"
 
 // Get Token
 const getToken = () => {

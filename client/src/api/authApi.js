@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const API_URL =
-  "http://localhost:5000/api/auth"
+  "https://student-os-vh7a.onrender.com/api/auth"
 
 // Register
 export const registerUser =
