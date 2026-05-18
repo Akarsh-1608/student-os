@@ -17,7 +17,7 @@ function Navbar() {
     <div className="bg-white shadow px-4 py-4 flex justify-between items-center">
 
       <h2 className="text-lg md:text-2xl font-semibold">
-        Task Manager
+        Amazing-Task-Tracker-App(ATTA)
       </h2>
 
       <button
